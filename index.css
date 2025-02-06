@@ -1,0 +1,74 @@
+body {
+  background-image: url("Images/BlackjackDark.jpg");
+  background-size: cover;
+  font-family: sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-weight: bold;
+  color: lightskyblue;
+  text-align: center;
+}
+
+body * {
+  background: linear-gradient(to right, #ff00ff, #0000cd, #ffb6c1, #7be7d8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 55px;
+  font-size: 60px;
+  font-family: "Nunito", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  background: linear-gradient(to right, #7be7d8, #ff00ff, #0000cd, #ee82ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#message-el {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-style: italic;
+  background: linear-gradient(to left, #7be7d8, #ff00ff, #0000cd, #ee82ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+  color: #ff00ff;
+  width: 150px;
+  background: transparent;
+  border: 1px solid;
+  border-radius: 15px;
+  border-color: #7be7d8 #ff00ff #0000cd #ee82ee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: initial;
+}
+
+button:hover {
+  border-color: #ff00ff #0000cd #ffb6c1 #7be7d8;
+  color: slateblue;
+}
+
+input {
+  border-color: #ff00ff #0000cd #ffb6c1 #7be7d8;
+  background: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 150px;
+  color: slateblue;
+  background: none;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: initial;
+}
